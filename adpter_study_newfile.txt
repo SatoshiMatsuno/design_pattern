@@ -1,0 +1,5 @@
+#wrriten by FileProperties
+#Thu Dec 07 18:37:27 JST 2017
+day=1
+year=2017
+month=12

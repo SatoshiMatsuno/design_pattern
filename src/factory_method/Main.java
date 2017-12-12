@@ -1,0 +1,20 @@
+package factory_method;
+
+import factory_method.framework.Factory;
+import factory_method.framework.Product;
+import factory_method.idcard.IDCardFactory;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Factory factory = new IDCardFactory();
+		Product card1 = factory.create("test_user");
+		Product card2 = factory.create("テスト太郎");
+		Product card3 = factory.create("テスト次郎");
+		card1.use();
+		card2.use();
+		card3.use();
+
+	}
+
+}
